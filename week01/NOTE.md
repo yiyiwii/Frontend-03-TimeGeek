@@ -24,6 +24,11 @@ Leetcode题：
    0 .toString()
    ```
 
+   Always use `===` to compare a variable, since it compares the value and type. 
+
+   Only one way to check `NaN`, `isNaN(NaN)`.
+
+
 2. String 
     UTF编码方式
   
@@ -35,9 +40,10 @@ Leetcode题：
     表示有值但为空
 
 6. Undefined
+   表示值未定义
 ？： `void 0`
 
-7. Symbol
+1. Symbol
     Use `typeof` to check data type; `instanceof` to check what type of Object. 
 
 ### JS对象 
@@ -65,7 +71,7 @@ Host Object
 ### 0.2.7 练习：
 > 尝试找出 JavaScript 引擎里面 Realm 所有的对象，使用一个 JS 数据可视化的框架去做一个可视化
 
-s
+
 ### JS结构化 | 函数调用
 
 执行上下文栈 (Execution Context Stack), which includes: 
